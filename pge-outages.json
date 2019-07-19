@@ -1,18 +1,5 @@
 [
   {
-    "outageNumber": "459916",
-    "outageStartTime": "1563537979",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "currentEtor": "1563541200",
-    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "14",
-    "lastUpdateTime": "1563542993",
-    "hazardFlag": "0",
-    "latitude": "35.48728",
-    "longitude": "-120.66619",
-    "regionName": "Atascadero"
-  },
-  {
     "outageNumber": "459899",
     "outageStartTime": "1563528377",
     "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
@@ -57,12 +44,11 @@
   {
     "outageNumber": "459929",
     "outageStartTime": "1563542700",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1563556500",
-    "currentEtor": "1563556500",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1563555600",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "108",
-    "lastUpdateTime": "1563543364",
+    "lastUpdateTime": "1563543520",
     "hazardFlag": "0",
     "latitude": "38.06975",
     "longitude": "-122.17583",
@@ -97,11 +83,11 @@
   {
     "outageNumber": "459928",
     "outageStartTime": "1563542580",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "currentEtor": "1563537600",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1563555600",
     "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "4",
-    "lastUpdateTime": "1563543251",
+    "lastUpdateTime": "1563543540",
     "hazardFlag": "0",
     "latitude": "38.06831",
     "longitude": "-122.16983",
@@ -152,18 +138,14 @@
     "outageNumber": "459896",
     "outageStartTime": "1563524620",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
-    "currentEtor": "1563544800",
+    "currentEtor": "1563562800",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "18",
-    "lastUpdateTime": "1563542934",
+    "lastUpdateTime": "1563543580",
     "hazardFlag": "0",
     "latitude": "37.11647",
     "longitude": "-120.40098",
     "outageDevices": [
-      {
-        "latitude": "37.10205",
-        "longitude": "-120.41382"
-      },
       {
         "latitude": "37.10205",
         "longitude": "-120.41177"
@@ -195,6 +177,10 @@
       {
         "latitude": "37.10925",
         "longitude": "-120.41808"
+      },
+      {
+        "latitude": "37.10205",
+        "longitude": "-120.41382"
       }
     ],
     "regionName": "Chowchilla"
@@ -285,7 +271,7 @@
     "currentEtor": "1563552000",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "187",
-    "lastUpdateTime": "1563542214",
+    "lastUpdateTime": "1563543824",
     "hazardFlag": "0",
     "latitude": "35.61558",
     "longitude": "-120.668",
@@ -362,6 +348,20 @@
     "regionName": "Forestville"
   },
   {
+    "outageNumber": "459931",
+    "outageStartTime": "1563543798",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1563557400",
+    "currentEtor": "1563557400",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1563543801",
+    "hazardFlag": "1",
+    "latitude": "36.57593",
+    "longitude": "-119.87768",
+    "regionName": "Fresno"
+  },
+  {
     "outageNumber": "459907",
     "outageStartTime": "1563535200",
     "crewEta": "1563537900",
@@ -370,7 +370,7 @@
     "currentEtor": "1563544800",
     "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1563541752",
+    "lastUpdateTime": "1563543837",
     "hazardFlag": "1",
     "latitude": "36.74305",
     "longitude": "-119.71749",
@@ -563,16 +563,16 @@
   },
   {
     "outageNumber": "459927",
-    "outageStartTime": "1563542494",
+    "outageStartTime": "1563542460",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "autoEtor": "1563556500",
     "currentEtor": "1563556500",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "295",
-    "lastUpdateTime": "1563542764",
+    "lastUpdateTime": "1563543683",
     "hazardFlag": "0",
-    "latitude": "37.78762",
-    "longitude": "-122.39073",
+    "latitude": "37.78776",
+    "longitude": "-122.39005",
     "regionName": "San Francisco"
   },
   {
@@ -592,15 +592,75 @@
     "outageNumber": "459923",
     "outageStartTime": "1563541078",
     "crewEta": "1563544500",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1563552900",
     "currentEtor": "1563552900",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "15",
-    "lastUpdateTime": "1563542723",
+    "lastUpdateTime": "1563543854",
     "hazardFlag": "2",
     "latitude": "37.29128",
     "longitude": "-121.9713",
     "regionName": "San Jose"
+  },
+  {
+    "outageNumber": "459930",
+    "outageStartTime": "1563543498",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1563557400",
+    "currentEtor": "1563557400",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "78",
+    "lastUpdateTime": "1563543702",
+    "hazardFlag": "0",
+    "latitude": "37.91943",
+    "longitude": "-120.35042",
+    "outageDevices": [
+      {
+        "latitude": "37.87964",
+        "longitude": "-120.36457"
+      },
+      {
+        "latitude": "37.88126",
+        "longitude": "-120.35789"
+      },
+      {
+        "latitude": "37.88481",
+        "longitude": "-120.35448"
+      },
+      {
+        "latitude": "37.90265",
+        "longitude": "-120.33914"
+      },
+      {
+        "latitude": "37.91249",
+        "longitude": "-120.34201"
+      },
+      {
+        "latitude": "37.91722",
+        "longitude": "-120.34767"
+      },
+      {
+        "latitude": "37.92841",
+        "longitude": "-120.3649"
+      },
+      {
+        "latitude": "37.91251",
+        "longitude": "-120.38532"
+      },
+      {
+        "latitude": "37.88511",
+        "longitude": "-120.37624"
+      },
+      {
+        "latitude": "37.88317",
+        "longitude": "-120.37498"
+      },
+      {
+        "latitude": "37.88004",
+        "longitude": "-120.36762"
+      }
+    ],
+    "regionName": "Sonora"
   }
 ]
