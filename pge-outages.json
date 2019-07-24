@@ -389,19 +389,6 @@
     "regionName": "Manteca"
   },
   {
-    "outageNumber": "469852",
-    "outageStartTime": "1563949376",
-    "crewEta": "1563951480",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1563951028",
-    "hazardFlag": "0",
-    "latitude": "37.80534",
-    "longitude": "-121.20593",
-    "regionName": "Manteca"
-  },
-  {
     "outageNumber": "469842",
     "outageStartTime": "1563913560",
     "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
@@ -507,10 +494,12 @@
   {
     "outageNumber": "469062",
     "outageStartTime": "1563909800",
-    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
+    "crewEta": "1563956880",
+    "crewCurrentStatus": "PG&E repair crew is en route to the outage location.",
+    "currentEtor": "1563967680",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1563938611",
+    "lastUpdateTime": "1563953361",
     "hazardFlag": "0",
     "latitude": "38.25088",
     "longitude": "-120.5931",
@@ -576,9 +565,9 @@
     "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1563957000",
     "currentEtor": "1563957000",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1563946847",
+    "lastUpdateTime": "1563953705",
     "hazardFlag": "1",
     "latitude": "35.4033",
     "longitude": "-119.02545",
@@ -666,12 +655,11 @@
   {
     "outageNumber": "469864",
     "outageStartTime": "1563942675",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1563958800",
-    "currentEtor": "1563958800",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1563967980",
+    "cause": "Our preliminary determination is that your outage was caused by an emergency issue.",
     "estCustAffected": "25",
-    "lastUpdateTime": "1563953022",
+    "lastUpdateTime": "1563953645",
     "hazardFlag": "0",
     "latitude": "37.73259",
     "longitude": "-122.14719",
@@ -878,21 +866,6 @@
     "regionName": "West Sacramento"
   },
   {
-    "outageNumber": "469846",
-    "outageStartTime": "1563948336",
-    "crewEta": "1563951480",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1563959700",
-    "currentEtor": "1563959700",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1563950756",
-    "hazardFlag": "1",
-    "latitude": "38.56795",
-    "longitude": "-121.53115",
-    "regionName": "West Sacramento"
-  },
-  {
     "outageNumber": "469755",
     "outageStartTime": "1563935324",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
@@ -924,11 +897,33 @@
     "outageStartTime": "1563952992",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "8",
-    "lastUpdateTime": "1563952996",
+    "estCustAffected": "61",
+    "lastUpdateTime": "1563953670",
     "hazardFlag": "0",
-    "latitude": "38.15633",
-    "longitude": "-121.31035",
+    "latitude": "38.15717",
+    "longitude": "-121.3076",
+    "outageDevices": [
+      {
+        "latitude": "38.15586",
+        "longitude": "-121.30777"
+      },
+      {
+        "latitude": "38.15658",
+        "longitude": "-121.30755"
+      },
+      {
+        "latitude": "38.15702",
+        "longitude": "-121.30892"
+      },
+      {
+        "latitude": "38.15709",
+        "longitude": "-121.31132"
+      },
+      {
+        "latitude": "38.15633",
+        "longitude": "-121.31035"
+      }
+    ],
     "regionName": "Woodbridge"
   }
 ]
