@@ -127,11 +127,11 @@
     "outageNumber": "628385",
     "outageStartTime": "1569726120",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
-    "currentEtor": "1569766260",
+    "currentEtor": "1569787860",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "10",
-    "lastUpdateTime": "1569752385",
-    "hazardFlag": "1",
+    "lastUpdateTime": "1569759769",
+    "hazardFlag": "0",
     "latitude": "38.5493",
     "longitude": "-121.76495",
     "regionName": "Davis"
@@ -557,9 +557,9 @@
     "outageStartTime": "1569725866",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
     "currentEtor": "1569772800",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "2",
-    "lastUpdateTime": "1569753270",
+    "lastUpdateTime": "1569759702",
     "hazardFlag": "0",
     "latitude": "38.91234",
     "longitude": "-121.18836",
@@ -637,10 +637,12 @@
   {
     "outageNumber": "628450",
     "outageStartTime": "1569750180",
-    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
-    "cause": "Our preliminary determination is that your outage was caused by the weather.",
+    "crewEta": "1569781500",
+    "crewCurrentStatus": "PG&E repair crew is en route to the outage location.",
+    "currentEtor": "1569795840",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1569755686",
+    "lastUpdateTime": "1569759935",
     "hazardFlag": "0",
     "latitude": "39.17856",
     "longitude": "-121.21089",
@@ -688,10 +690,10 @@
   {
     "outageNumber": "628368",
     "outageStartTime": "1569730485",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1569758732",
+    "lastUpdateTime": "1569759736",
     "hazardFlag": "1",
     "latitude": "37.39481",
     "longitude": "-122.2133",
@@ -1359,39 +1361,17 @@
     "regionName": "Woodland"
   },
   {
-    "outageNumber": "628466",
-    "outageStartTime": "1569758982",
+    "outageNumber": "628468",
+    "outageStartTime": "1569758640",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1569772800",
-    "currentEtor": "1569772800",
+    "autoEtor": "1569771000",
+    "currentEtor": "1569771000",
     "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "182",
-    "lastUpdateTime": "1569758994",
+    "estCustAffected": "16",
+    "lastUpdateTime": "1569759435",
     "hazardFlag": "0",
-    "latitude": "38.65861",
-    "longitude": "-121.78433",
-    "outageDevices": [
-      {
-        "latitude": "38.65608",
-        "longitude": "-121.78994"
-      },
-      {
-        "latitude": "38.65825",
-        "longitude": "-121.78509"
-      },
-      {
-        "latitude": "38.65916",
-        "longitude": "-121.78827"
-      },
-      {
-        "latitude": "38.65891",
-        "longitude": "-121.79291"
-      },
-      {
-        "latitude": "38.65628",
-        "longitude": "-121.79146"
-      }
-    ],
+    "latitude": "38.65894",
+    "longitude": "-121.79287",
     "regionName": "Woodland"
   },
   {
@@ -1432,18 +1412,5 @@
       }
     ],
     "regionName": "Woodland"
-  },
-  {
-    "outageNumber": "628113",
-    "outageStartTime": "1569717807",
-    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
-    "currentEtor": "1569765600",
-    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
-    "estCustAffected": "7",
-    "lastUpdateTime": "1569754810",
-    "hazardFlag": "1",
-    "latitude": "38.73299",
-    "longitude": "-121.80992",
-    "regionName": "Yolo"
   }
 ]
