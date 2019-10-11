@@ -153,6 +153,7 @@ CREATE TABLE outages_expanded (
   outage INT PRIMARY KEY,
   earliest INT,
   latest INT,
+  num_snapshots TEXT,
   possible_duration_hours FLOAT,
   probably_ended TEXT,
   min_estCustAffected INT,
