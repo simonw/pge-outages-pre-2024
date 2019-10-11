@@ -1,5 +1,7 @@
 # pge-outages
 
-Tracking PG&amp;E outages.
+Tracking PG&E outages.
 
-I split this off from [disaster-data](https://github.com/simonw/disaster-data) because it was by far the noisest of the scraped data sources.
+See [Tracking PG&E outages by scraping to a git repo ](https://simonwillison.net/2019/Oct/10/pge-outages/) for more details.
+
+The scraper that updates this repo lives in the [disaster-scrapers](https://github.com/simonw/disaster-scrapers).
