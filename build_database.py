@@ -144,3 +144,36 @@ if __name__ == "__main__":
             print(count, sep=" ", end=" ")
         for outage in json.loads(outages):
             save_outage(db, outage, when, hash)
+
+    # Materialized view
+    with db.conn:
+        db.conn.executescript("""
+DROP TABLE IF EXISTS outages_expanded;
+CREATE TABLE outages_expanded (
+  outage INT PRIMARY KEY,
+  earliest INT,
+  latest INT,
+  possible_duration_hours FLOAT,
+  probably_ended TEXT,
+  min_estCustAffected INT,
+  max_estCustAffected INT,
+  region TEXT,
+  latitude TEXT,
+  longitude TEXT
+);
+INSERT INTO outages_expanded select
+  outage,
+  min(snapshots.[when]) as earliest,
+  max(snapshots.[when]) as latest,
+  round(cast(max(snapshots.[when]) - min(snapshots.[when]) as float) / 3600, 2) as possible_duration_hours,
+  outage not in (select outage from most_recent_snapshot) as probably_ended,
+  min(outage_snapshots.estCustAffected) as min_estCustAffected,
+  max(outage_snapshots.estCustAffected) as max_estCustAffected,
+  min(regionName.name) as region,
+  min(outage_snapshots.latitude) as latitude,
+  min(outage_snapshots.longitude) as longitude
+from outage_snapshots
+  join snapshots on snapshots.id = outage_snapshots.snapshot
+  join regionName on outage_snapshots.regionName = regionName.id
+group by outage;
+        """)

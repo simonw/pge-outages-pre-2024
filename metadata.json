@@ -1,0 +1,14 @@
+{
+    "title": "PG&E Outages",
+    "about": "About this site",
+    "about_url": "https://simonwillison.net/2019/Oct/10/pge-outages/",
+    "databases": {
+        "pge-outages": {
+            "tables": {
+                "outages_expanded": {
+                    "description_html": "<p>This table was created using the output of the following SQL statement:</p><pre>\nselect\n  outage,\n  min(snapshots.[when]) as earliest,\n  max(snapshots.[when]) as latest,\n  round(cast(max(snapshots.[when]) - min(snapshots.[when]) as float) / 3600, 2) as possible_duration_hours,\n  outage not in (select outage from most_recent_snapshot) as probably_ended,\n  min(outage_snapshots.estCustAffected) as min_estCustAffected,\n  max(outage_snapshots.estCustAffected) as max_estCustAffected,\n  min(regionName.name) as region,\n  min(outage_snapshots.latitude) as latitude,\n  min(outage_snapshots.longitude) as longitude\nfrom outage_snapshots\n  join snapshots on snapshots.id = outage_snapshots.snapshot\n  join regionName on outage_snapshots.regionName = regionName.id\ngroup by outage;</pre>"
+                }
+            }
+        }
+    }
+}
