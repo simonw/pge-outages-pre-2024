@@ -1542,7 +1542,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "303",
-    "lastUpdateTime": "1572441136",
+    "lastUpdateTime": "1572447540",
     "hazardFlag": "0",
     "latitude": "40.4389",
     "longitude": "-122.40762",
@@ -2906,7 +2906,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "790",
-    "lastUpdateTime": "1572441136",
+    "lastUpdateTime": "1572447605",
     "hazardFlag": "3",
     "latitude": "38.24268",
     "longitude": "-120.36047",
@@ -3084,7 +3084,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "794",
-    "lastUpdateTime": "1572441135",
+    "lastUpdateTime": "1572447638",
     "hazardFlag": "0",
     "latitude": "38.23913",
     "longitude": "-120.33642",
@@ -4034,7 +4034,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "246",
-    "lastUpdateTime": "1572438883",
+    "lastUpdateTime": "1572447578",
     "hazardFlag": "0",
     "latitude": "38.95657",
     "longitude": "-121.04279",
@@ -4398,7 +4398,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "189",
-    "lastUpdateTime": "1572438883",
+    "lastUpdateTime": "1572447512",
     "hazardFlag": "0",
     "latitude": "38.86938",
     "longitude": "-121.08027",
@@ -5172,7 +5172,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "73",
-    "lastUpdateTime": "1572446088",
+    "lastUpdateTime": "1572447434",
     "hazardFlag": "0",
     "latitude": "39.04406",
     "longitude": "-121.04993",
@@ -5669,12 +5669,13 @@
   {
     "outageNumber": "694791",
     "outageStartTime": "1572447189",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewEta": "1572448500",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1572458400",
     "currentEtor": "1572458400",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1572447191",
+    "lastUpdateTime": "1572447524",
     "hazardFlag": "1",
     "latitude": "35.35874",
     "longitude": "-119.04395",
@@ -5716,38 +5717,46 @@
     "currentEtor": "1572457500",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1572446886",
-    "hazardFlag": "1",
+    "lastUpdateTime": "1572447682",
+    "hazardFlag": "2",
     "latitude": "35.35081",
     "longitude": "-118.99479",
     "regionName": "Bakersfield"
   },
   {
-    "outageNumber": "694784",
-    "outageStartTime": "1572446874",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1572453000",
-    "currentEtor": "1572453000",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1572447126",
-    "hazardFlag": "0",
-    "latitude": "35.34429",
-    "longitude": "-119.07701",
-    "regionName": "Bakersfield"
-  },
-  {
     "outageNumber": "694794",
-    "outageStartTime": "1572447362",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "outageStartTime": "1572446280",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1572453900",
     "currentEtor": "1572453900",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1572447365",
-    "hazardFlag": "1",
-    "latitude": "35.34746",
-    "longitude": "-119.07385",
+    "cause": "PG&E is investigating the cause of your outage.",
+    "estCustAffected": "47",
+    "lastUpdateTime": "1572447611",
+    "hazardFlag": "2",
+    "latitude": "35.34741",
+    "longitude": "-119.07381",
+    "outageDevices": [
+      {
+        "latitude": "35.34429",
+        "longitude": "-119.07701"
+      },
+      {
+        "latitude": "35.34746",
+        "longitude": "-119.07385"
+      },
+      {
+        "latitude": "35.34744",
+        "longitude": "-119.07632"
+      },
+      {
+        "latitude": "35.34572",
+        "longitude": "-119.07949"
+      },
+      {
+        "latitude": "35.34474",
+        "longitude": "-119.07788"
+      }
+    ],
     "regionName": "Bakersfield"
   },
   {
@@ -5779,20 +5788,6 @@
     "regionName": "Bakersfield"
   },
   {
-    "outageNumber": "694775",
-    "outageStartTime": "1572446280",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
-    "autoEtor": "1572452100",
-    "currentEtor": "1572452100",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1572447088",
-    "hazardFlag": "0",
-    "latitude": "35.34745",
-    "longitude": "-119.07472",
-    "regionName": "Bakersfield"
-  },
-  {
     "outageNumber": "694777",
     "outageStartTime": "1572446548",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -5804,20 +5799,6 @@
     "hazardFlag": "0",
     "latitude": "35.33255",
     "longitude": "-118.90263",
-    "regionName": "Bakersfield"
-  },
-  {
-    "outageNumber": "694781",
-    "outageStartTime": "1572446794",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1572453000",
-    "currentEtor": "1572453000",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1572446797",
-    "hazardFlag": "0",
-    "latitude": "35.34572",
-    "longitude": "-119.07949",
     "regionName": "Bakersfield"
   },
   {
@@ -5885,12 +5866,12 @@
   {
     "outageNumber": "694716",
     "outageStartTime": "1572442074",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
+    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
     "autoEtor": "1572455700",
     "currentEtor": "1572455700",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "4",
-    "lastUpdateTime": "1572445683",
+    "lastUpdateTime": "1572447676",
     "hazardFlag": "0",
     "latitude": "35.38666",
     "longitude": "-118.95668",
@@ -5941,12 +5922,12 @@
   {
     "outageNumber": "694733",
     "outageStartTime": "1572444437",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1572455700",
     "currentEtor": "1572455700",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1572446672",
+    "lastUpdateTime": "1572447597",
     "hazardFlag": "1",
     "latitude": "35.35069",
     "longitude": "-119.05535",
@@ -7865,7 +7846,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1572447012",
+    "lastUpdateTime": "1572447481",
     "hazardFlag": "0",
     "latitude": "37.12895",
     "longitude": "-122.11471",
@@ -10896,7 +10877,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "42",
-    "lastUpdateTime": "1572441138",
+    "lastUpdateTime": "1572447622",
     "hazardFlag": "1",
     "latitude": "39.48196",
     "longitude": "-121.24188",
@@ -10978,7 +10959,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "5",
-    "lastUpdateTime": "1572445009",
+    "lastUpdateTime": "1572447491",
     "hazardFlag": "0",
     "latitude": "39.88012",
     "longitude": "-121.97142",
@@ -11001,7 +10982,7 @@
   {
     "outageNumber": "694679",
     "outageStartTime": "1572423960",
-    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
+    "crewCurrentStatus": "PG&E repair crew is en route to the outage location.",
     "currentEtor": "1572466800",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "14",
@@ -11305,7 +11286,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "472",
-    "lastUpdateTime": "1572446550",
+    "lastUpdateTime": "1572447650",
     "hazardFlag": "2",
     "latitude": "38.96996",
     "longitude": "-122.66425",
@@ -11631,7 +11612,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "1615",
-    "lastUpdateTime": "1572441138",
+    "lastUpdateTime": "1572447501",
     "hazardFlag": "1",
     "latitude": "38.9543",
     "longitude": "-122.61028",
@@ -11697,7 +11678,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "2881",
-    "lastUpdateTime": "1572441528",
+    "lastUpdateTime": "1572447572",
     "hazardFlag": "1",
     "latitude": "38.93706",
     "longitude": "-122.60942",
@@ -11888,10 +11869,6 @@
     "outageDevices": [
       {
         "latitude": "38.9373",
-        "longitude": "-122.60778"
-      },
-      {
-        "latitude": "38.9373",
         "longitude": "-122.60724"
       },
       {
@@ -11921,6 +11898,10 @@
       {
         "latitude": "38.93734",
         "longitude": "-122.60833"
+      },
+      {
+        "latitude": "38.9373",
+        "longitude": "-122.60778"
       }
     ],
     "regionName": "Clearlake"
@@ -12860,10 +12841,6 @@
     "outageDevices": [
       {
         "latitude": "38.80685",
-        "longitude": "-123.02821"
-      },
-      {
-        "latitude": "38.80685",
         "longitude": "-123.02719"
       },
       {
@@ -12889,6 +12866,10 @@
       {
         "latitude": "38.80997",
         "longitude": "-123.02974"
+      },
+      {
+        "latitude": "38.80685",
+        "longitude": "-123.02821"
       }
     ],
     "regionName": "Cloverdale"
@@ -16302,7 +16283,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "440",
-    "lastUpdateTime": "1572446580",
+    "lastUpdateTime": "1572447478",
     "hazardFlag": "1",
     "latitude": "40.38947",
     "longitude": "-122.34307",
@@ -16574,7 +16555,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "20",
-    "lastUpdateTime": "1572446747",
+    "lastUpdateTime": "1572447540",
     "hazardFlag": "0",
     "latitude": "37.69965",
     "longitude": "-122.49428",
@@ -16598,7 +16579,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "28",
-    "lastUpdateTime": "1572447233",
+    "lastUpdateTime": "1572447532",
     "hazardFlag": "0",
     "latitude": "37.70153",
     "longitude": "-122.49549",
@@ -16695,7 +16676,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "10",
-    "lastUpdateTime": "1572443088",
+    "lastUpdateTime": "1572447591",
     "hazardFlag": "1",
     "latitude": "38.55988",
     "longitude": "-121.73221",
@@ -17339,7 +17320,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "25",
-    "lastUpdateTime": "1572369842",
+    "lastUpdateTime": "1572447391",
     "hazardFlag": "0",
     "latitude": "38.69249",
     "longitude": "-120.82514",
@@ -18241,7 +18222,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "43",
-    "lastUpdateTime": "1572441138",
+    "lastUpdateTime": "1572447484",
     "hazardFlag": "0",
     "latitude": "39.68293",
     "longitude": "-123.47473",
@@ -18731,6 +18712,18 @@
     "regionName": "Elk Creek"
   },
   {
+    "outageNumber": "694795",
+    "outageStartTime": "1572447469",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1572447472",
+    "hazardFlag": "1",
+    "latitude": "40.79075",
+    "longitude": "-124.18141",
+    "regionName": "Eureka"
+  },
+  {
     "outageNumber": "694717",
     "outageStartTime": "1572442159",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -18912,7 +18905,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "131",
-    "lastUpdateTime": "1572441137",
+    "lastUpdateTime": "1572447423",
     "hazardFlag": "0",
     "latitude": "38.24861",
     "longitude": "-122.12069",
@@ -19494,7 +19487,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "131",
-    "lastUpdateTime": "1572441138",
+    "lastUpdateTime": "1572447523",
     "hazardFlag": "0",
     "latitude": "38.32588",
     "longitude": "-122.4879",
@@ -24485,7 +24478,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "187",
-    "lastUpdateTime": "1572441136",
+    "lastUpdateTime": "1572447434",
     "hazardFlag": "0",
     "latitude": "39.23409",
     "longitude": "-121.0598",
@@ -27014,7 +27007,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "597",
-    "lastUpdateTime": "1572441137",
+    "lastUpdateTime": "1572447540",
     "hazardFlag": "3",
     "latitude": "38.24964",
     "longitude": "-122.16064",
@@ -31944,7 +31937,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "20",
-    "lastUpdateTime": "1572441139",
+    "lastUpdateTime": "1572447537",
     "hazardFlag": "0",
     "latitude": "38.33447",
     "longitude": "-120.75498",
@@ -38526,8 +38519,8 @@
     "outageStartTime": "1572443828",
     "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1572445174",
+    "estCustAffected": "4",
+    "lastUpdateTime": "1572447665",
     "hazardFlag": "0",
     "latitude": "37.12885",
     "longitude": "-121.95254",
@@ -40047,7 +40040,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "1046",
-    "lastUpdateTime": "1572446495",
+    "lastUpdateTime": "1572447595",
     "hazardFlag": "0",
     "latitude": "39.85417",
     "longitude": "-121.60588",
@@ -41767,7 +41760,7 @@
     "currentEtor": "1572577200",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "4002",
-    "lastUpdateTime": "1572447034",
+    "lastUpdateTime": "1572447628",
     "hazardFlag": "10",
     "latitude": "37.89847",
     "longitude": "-122.52463",
@@ -48811,7 +48804,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "240",
-    "lastUpdateTime": "1572441137",
+    "lastUpdateTime": "1572447517",
     "hazardFlag": "1",
     "latitude": "39.34315",
     "longitude": "-121.12119",
@@ -49732,6 +49725,20 @@
     "regionName": "Occidental"
   },
   {
+    "outageNumber": "694797",
+    "outageStartTime": "1572447645",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1572466500",
+    "currentEtor": "1572466500",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1572447649",
+    "hazardFlag": "1",
+    "latitude": "35.4485",
+    "longitude": "-119.03789",
+    "regionName": "Oildale"
+  },
+  {
     "outageNumber": "694766",
     "outageStartTime": "1572445983",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -49748,12 +49755,12 @@
   {
     "outageNumber": "694767",
     "outageStartTime": "1572446061",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1572462000",
     "currentEtor": "1572462000",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1572446832",
+    "lastUpdateTime": "1572447536",
     "hazardFlag": "1",
     "latitude": "35.41855",
     "longitude": "-119.02926",
@@ -49765,9 +49772,9 @@
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
     "autoEtor": "1572460200",
     "currentEtor": "1572460200",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "4",
-    "lastUpdateTime": "1572447317",
+    "lastUpdateTime": "1572447410",
     "hazardFlag": "2",
     "latitude": "35.42992",
     "longitude": "-119.01063",
@@ -52799,7 +52806,7 @@
     "currentEtor": "1572458400",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1572446778",
+    "lastUpdateTime": "1572447432",
     "hazardFlag": "1",
     "latitude": "36.65072",
     "longitude": "-119.49564",
@@ -56773,7 +56780,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "639",
-    "lastUpdateTime": "1572446578",
+    "lastUpdateTime": "1572447584",
     "hazardFlag": "0",
     "latitude": "38.76905",
     "longitude": "-120.92738",
@@ -57304,10 +57311,6 @@
     "outageDevices": [
       {
         "latitude": "38.75588",
-        "longitude": "-120.7987"
-      },
-      {
-        "latitude": "38.75588",
         "longitude": "-120.79784"
       },
       {
@@ -57329,6 +57332,10 @@
       {
         "latitude": "38.75946",
         "longitude": "-120.80803"
+      },
+      {
+        "latitude": "38.75588",
+        "longitude": "-120.7987"
       }
     ],
     "regionName": "Placerville"
@@ -57545,10 +57552,6 @@
     "outageDevices": [
       {
         "latitude": "38.7128",
-        "longitude": "-120.79934"
-      },
-      {
-        "latitude": "38.7128",
         "longitude": "-120.79824"
       },
       {
@@ -57590,6 +57593,10 @@
       {
         "latitude": "38.71659",
         "longitude": "-120.80224"
+      },
+      {
+        "latitude": "38.7128",
+        "longitude": "-120.79934"
       }
     ],
     "regionName": "Placerville"
@@ -57612,7 +57619,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "725",
-    "lastUpdateTime": "1572441887",
+    "lastUpdateTime": "1572447467",
     "hazardFlag": "0",
     "latitude": "38.73125",
     "longitude": "-120.7839",
@@ -59832,6 +59839,18 @@
       }
     ],
     "regionName": "Rancho Tehama Reserve"
+  },
+  {
+    "outageNumber": "694796",
+    "outageStartTime": "1572447521",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "2",
+    "lastUpdateTime": "1572447523",
+    "hazardFlag": "0",
+    "latitude": "40.18268",
+    "longitude": "-122.21715",
+    "regionName": "Red Bluff"
   },
   {
     "outageNumber": "692002",
@@ -62339,18 +62358,6 @@
     "regionName": "Rio Vista"
   },
   {
-    "outageNumber": "694732",
-    "outageStartTime": "1572444396",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1572444399",
-    "hazardFlag": "1",
-    "latitude": "38.81425",
-    "longitude": "-121.31253",
-    "regionName": "Rocklin"
-  },
-  {
     "outageNumber": "694632",
     "outageStartTime": "1572408120",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -63465,7 +63472,7 @@
     "currentEtor": "1572489000",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "3241",
-    "lastUpdateTime": "1572447155",
+    "lastUpdateTime": "1572447540",
     "hazardFlag": "5",
     "latitude": "38.01251",
     "longitude": "-122.65398",
@@ -64193,7 +64200,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "256",
-    "lastUpdateTime": "1572441138",
+    "lastUpdateTime": "1572447451",
     "hazardFlag": "0",
     "latitude": "38.44872",
     "longitude": "-122.6884",
@@ -64250,6 +64257,10 @@
     "outageDevices": [
       {
         "latitude": "38.49804",
+        "longitude": "-122.65066"
+      },
+      {
+        "latitude": "38.49804",
         "longitude": "-122.64987"
       },
       {
@@ -64279,10 +64290,6 @@
       {
         "latitude": "38.49826",
         "longitude": "-122.65258"
-      },
-      {
-        "latitude": "38.49804",
-        "longitude": "-122.65066"
       }
     ],
     "regionName": "Santa Rosa"
@@ -68090,10 +68097,6 @@
     "outageDevices": [
       {
         "latitude": "38.44045",
-        "longitude": "-122.80647"
-      },
-      {
-        "latitude": "38.44045",
         "longitude": "-122.8054"
       },
       {
@@ -68139,6 +68142,10 @@
       {
         "latitude": "38.44749",
         "longitude": "-122.84286"
+      },
+      {
+        "latitude": "38.44045",
+        "longitude": "-122.80647"
       }
     ],
     "regionName": "Sebastopol"
@@ -69503,7 +69510,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "388",
-    "lastUpdateTime": "1572446327",
+    "lastUpdateTime": "1572447418",
     "hazardFlag": "0",
     "latitude": "38.71401",
     "longitude": "-120.93943",
@@ -69757,7 +69764,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "397",
-    "lastUpdateTime": "1572441135",
+    "lastUpdateTime": "1572447617",
     "hazardFlag": "0",
     "latitude": "40.4989",
     "longitude": "-121.8385",
@@ -71711,10 +71718,6 @@
     "outageDevices": [
       {
         "latitude": "38.33723",
-        "longitude": "-122.49238"
-      },
-      {
-        "latitude": "38.33723",
         "longitude": "-122.49047"
       },
       {
@@ -71724,6 +71727,10 @@
       {
         "latitude": "38.33776",
         "longitude": "-122.49201"
+      },
+      {
+        "latitude": "38.33723",
+        "longitude": "-122.49238"
       }
     ],
     "regionName": "Sonoma"
@@ -72325,7 +72332,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "143",
-    "lastUpdateTime": "1572438884",
+    "lastUpdateTime": "1572447675",
     "hazardFlag": "0",
     "latitude": "38.02078",
     "longitude": "-120.35823",
@@ -72841,7 +72848,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "426",
-    "lastUpdateTime": "1572442036",
+    "lastUpdateTime": "1572447670",
     "hazardFlag": "0",
     "latitude": "38.43488",
     "longitude": "-120.75011",
@@ -79263,7 +79270,7 @@
     "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "187",
-    "lastUpdateTime": "1572447184",
+    "lastUpdateTime": "1572447597",
     "hazardFlag": "0",
     "latitude": "38.67777",
     "longitude": "-121.80509",
