@@ -1014,10 +1014,10 @@
   {
     "outageNumber": "711884",
     "outageStartTime": "1574307540",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "37",
-    "lastUpdateTime": "1574314530",
+    "lastUpdateTime": "1574347204",
     "hazardFlag": "0",
     "latitude": "40.45231",
     "longitude": "-123.65387",
@@ -1955,7 +1955,7 @@
     "currentEtor": "1574361000",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1574346817",
+    "lastUpdateTime": "1574347157",
     "hazardFlag": "0",
     "latitude": "36.97606",
     "longitude": "-121.9554",
@@ -1964,12 +1964,13 @@
   {
     "outageNumber": "711958",
     "outageStartTime": "1574346807",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewEta": "1574349120",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1574361000",
     "currentEtor": "1574361000",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "230",
-    "lastUpdateTime": "1574346965",
+    "lastUpdateTime": "1574347540",
     "hazardFlag": "0",
     "latitude": "36.97707",
     "longitude": "-121.95374",
@@ -3124,6 +3125,18 @@
     "regionName": "Glen Ellen"
   },
   {
+    "outageNumber": "711961",
+    "outageStartTime": "1574347202",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "11",
+    "lastUpdateTime": "1574347211",
+    "hazardFlag": "0",
+    "latitude": "39.21702",
+    "longitude": "-121.05869",
+    "regionName": "Grass Valley"
+  },
+  {
     "outageNumber": "710982",
     "outageStartTime": "1574266440",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -4096,7 +4109,7 @@
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1574333489",
+    "lastUpdateTime": "1574347147",
     "hazardFlag": "0",
     "latitude": "39.83946",
     "longitude": "-121.59246",
@@ -4412,77 +4425,45 @@
     "regionName": "Manton"
   },
   {
-    "outageNumber": "711957",
-    "outageStartTime": "1574346696",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "4",
-    "lastUpdateTime": "1574346877",
-    "hazardFlag": "0",
-    "latitude": "39.10003",
-    "longitude": "-121.46918",
-    "outageDevices": [
-      {
-        "latitude": "39.09479",
-        "longitude": "-121.46952"
-      },
-      {
-        "latitude": "39.09876",
-        "longitude": "-121.46882"
-      },
-      {
-        "latitude": "39.09794",
-        "longitude": "-121.46963"
-      }
-    ],
-    "regionName": "Marysville"
-  },
-  {
     "outageNumber": "711955",
-    "outageStartTime": "1574346696",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "3",
-    "lastUpdateTime": "1574346877",
-    "hazardFlag": "0",
-    "latitude": "39.10031",
-    "longitude": "-121.4577",
-    "regionName": "Marysville"
-  },
-  {
-    "outageNumber": "711954",
     "outageStartTime": "1574346695",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1574346701",
+    "estCustAffected": "34",
+    "lastUpdateTime": "1574347099",
     "hazardFlag": "0",
-    "latitude": "39.10046",
-    "longitude": "-121.48878",
-    "regionName": "Marysville"
-  },
-  {
-    "outageNumber": "711953",
-    "outageStartTime": "1574346696",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1574346701",
-    "hazardFlag": "0",
-    "latitude": "39.09978",
-    "longitude": "-121.49224",
-    "regionName": "Marysville"
-  },
-  {
-    "outageNumber": "711960",
-    "outageStartTime": "1574346696",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1574346877",
-    "hazardFlag": "0",
-    "latitude": "39.09593",
-    "longitude": "-121.47739",
+    "latitude": "39.1003",
+    "longitude": "-121.45302",
+    "outageDevices": [
+      {
+        "latitude": "39.08328",
+        "longitude": "-121.45807"
+      },
+      {
+        "latitude": "39.08344",
+        "longitude": "-121.45209"
+      },
+      {
+        "latitude": "39.10029",
+        "longitude": "-121.45506"
+      },
+      {
+        "latitude": "39.10517",
+        "longitude": "-121.45767"
+      },
+      {
+        "latitude": "39.10697",
+        "longitude": "-121.48652"
+      },
+      {
+        "latitude": "39.09978",
+        "longitude": "-121.49224"
+      },
+      {
+        "latitude": "39.08339",
+        "longitude": "-121.46291"
+      }
+    ],
     "regionName": "Marysville"
   },
   {
@@ -8973,7 +8954,7 @@
     "currentEtor": "1574377200",
     "cause": "To protect public safety, power in your area has been turned off due to extreme weather conditions with high fire danger. Power will be restored as soon as it is safe to do so.",
     "estCustAffected": "1479",
-    "lastUpdateTime": "1574345345",
+    "lastUpdateTime": "1574347156",
     "hazardFlag": "0",
     "latitude": "38.49014",
     "longitude": "-122.66601",
