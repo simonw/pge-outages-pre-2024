@@ -1720,10 +1720,10 @@
   {
     "outageNumber": "1108828",
     "outageStartTime": "1601734320",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "177",
-    "lastUpdateTime": "1601734844",
+    "lastUpdateTime": "1601734909",
     "hazardFlag": "1",
     "latitude": "36.90362",
     "longitude": "-121.73609",
@@ -2474,12 +2474,11 @@
   {
     "outageNumber": "1108821",
     "outageStartTime": "1601731200",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1601744400",
-    "currentEtor": "1601744400",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1601737200",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1601731339",
+    "lastUpdateTime": "1601735095",
     "hazardFlag": "0",
     "latitude": "37.3596",
     "longitude": "-121.80643",
@@ -2505,7 +2504,7 @@
     "currentEtor": "1601737200",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "19",
-    "lastUpdateTime": "1601734264",
+    "lastUpdateTime": "1601734914",
     "hazardFlag": "0",
     "latitude": "37.23124",
     "longitude": "-121.79862",
@@ -2545,6 +2544,7 @@
   {
     "outageNumber": "1108824",
     "outageStartTime": "1601732838",
+    "crewEta": "1601738160",
     "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
@@ -2613,10 +2613,6 @@
     "outageDevices": [
       {
         "latitude": "38.42228",
-        "longitude": "-122.59967"
-      },
-      {
-        "latitude": "38.42228",
         "longitude": "-122.59798"
       },
       {
@@ -2646,6 +2642,10 @@
       {
         "latitude": "38.46074",
         "longitude": "-122.64035"
+      },
+      {
+        "latitude": "38.42228",
+        "longitude": "-122.59967"
       }
     ],
     "regionName": "Santa Rosa"
@@ -3089,6 +3089,32 @@
     "regionName": "Santa Rosa"
   },
   {
+    "outageNumber": "1096082",
+    "outageStartTime": "1601268632",
+    "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
+    "cause": "PG&E is investigating the cause of your outage.",
+    "estCustAffected": "6",
+    "lastUpdateTime": "1601432284",
+    "hazardFlag": "0",
+    "latitude": "38.45124",
+    "longitude": "-122.61763",
+    "outageDevices": [
+      {
+        "latitude": "38.45253",
+        "longitude": "-122.61667"
+      },
+      {
+        "latitude": "38.45408",
+        "longitude": "-122.61388"
+      },
+      {
+        "latitude": "38.45414",
+        "longitude": "-122.61552"
+      }
+    ],
+    "regionName": "Santa Rosa"
+  },
+  {
     "outageNumber": "1100681",
     "outageStartTime": "1601282500",
     "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
@@ -3114,32 +3140,6 @@
       {
         "latitude": "38.43502",
         "longitude": "-122.56551"
-      }
-    ],
-    "regionName": "Santa Rosa"
-  },
-  {
-    "outageNumber": "1096082",
-    "outageStartTime": "1601268632",
-    "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "6",
-    "lastUpdateTime": "1601432284",
-    "hazardFlag": "0",
-    "latitude": "38.45124",
-    "longitude": "-122.61763",
-    "outageDevices": [
-      {
-        "latitude": "38.45253",
-        "longitude": "-122.61667"
-      },
-      {
-        "latitude": "38.45408",
-        "longitude": "-122.61388"
-      },
-      {
-        "latitude": "38.45414",
-        "longitude": "-122.61552"
       }
     ],
     "regionName": "Santa Rosa"
@@ -3491,6 +3491,10 @@
     "outageDevices": [
       {
         "latitude": "37.05844",
+        "longitude": "-119.32668"
+      },
+      {
+        "latitude": "37.05844",
         "longitude": "-119.32489"
       },
       {
@@ -3520,10 +3524,6 @@
       {
         "latitude": "37.05897",
         "longitude": "-119.32815"
-      },
-      {
-        "latitude": "37.05844",
-        "longitude": "-119.32668"
       }
     ],
     "regionName": "Shaver Lake"
