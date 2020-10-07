@@ -814,10 +814,11 @@
   {
     "outageNumber": "1112511",
     "outageStartTime": "1602080880",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1602109800",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "2",
-    "lastUpdateTime": "1602081057",
+    "lastUpdateTime": "1602081166",
     "hazardFlag": "0",
     "latitude": "36.82207",
     "longitude": "-119.79902",
@@ -874,6 +875,42 @@
     "latitude": "38.78926",
     "longitude": "-121.15492",
     "regionName": "Granite Bay"
+  },
+  {
+    "outageNumber": "1112517",
+    "outageStartTime": "1602081360",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1602094500",
+    "currentEtor": "1602094500",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "55",
+    "lastUpdateTime": "1602081626",
+    "hazardFlag": "1",
+    "latitude": "35.385",
+    "longitude": "-119.1212",
+    "outageDevices": [
+      {
+        "latitude": "35.38427",
+        "longitude": "-119.12395"
+      },
+      {
+        "latitude": "35.38451",
+        "longitude": "-119.12202"
+      },
+      {
+        "latitude": "35.38561",
+        "longitude": "-119.12202"
+      },
+      {
+        "latitude": "35.38595",
+        "longitude": "-119.12344"
+      },
+      {
+        "latitude": "35.38452",
+        "longitude": "-119.12672"
+      }
+    ],
+    "regionName": "Greenacres"
   },
   {
     "outageNumber": "1112222",
@@ -1151,6 +1188,19 @@
     "regionName": "Igo"
   },
   {
+    "outageNumber": "1112518",
+    "outageStartTime": "1602081420",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1602106200",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1602081574",
+    "hazardFlag": "0",
+    "latitude": "37.92709",
+    "longitude": "-120.42677",
+    "regionName": "Jamestown"
+  },
+  {
     "outageNumber": "1100712",
     "outageStartTime": "1601282500",
     "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
@@ -1407,10 +1457,24 @@
     "currentEtor": "1602092700",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1602081050",
+    "lastUpdateTime": "1602081163",
     "hazardFlag": "1",
     "latitude": "37.77107",
     "longitude": "-122.18629",
+    "regionName": "Oakland"
+  },
+  {
+    "outageNumber": "1112513",
+    "outageStartTime": "1602081099",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1602093600",
+    "currentEtor": "1602093600",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1602081362",
+    "hazardFlag": "0",
+    "latitude": "37.77701",
+    "longitude": "-122.22225",
     "regionName": "Oakland"
   },
   {
@@ -1456,48 +1520,6 @@
     "regionName": "Oroville"
   },
   {
-    "outageNumber": "1060435",
-    "outageStartTime": "1599539460",
-    "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "36",
-    "lastUpdateTime": "1601928181",
-    "hazardFlag": "0",
-    "latitude": "39.57654",
-    "longitude": "-121.30188",
-    "outageDevices": [
-      {
-        "latitude": "39.57294",
-        "longitude": "-121.26054"
-      },
-      {
-        "latitude": "39.57376",
-        "longitude": "-121.2509"
-      },
-      {
-        "latitude": "39.59365",
-        "longitude": "-121.25026"
-      },
-      {
-        "latitude": "39.59369",
-        "longitude": "-121.26626"
-      },
-      {
-        "latitude": "39.59254",
-        "longitude": "-121.27595"
-      },
-      {
-        "latitude": "39.58852",
-        "longitude": "-121.2859"
-      },
-      {
-        "latitude": "39.58013",
-        "longitude": "-121.29553"
-      }
-    ],
-    "regionName": "Oroville"
-  },
-  {
     "outageNumber": "1064793",
     "outageStartTime": "1599543960",
     "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
@@ -1535,6 +1557,48 @@
       {
         "latitude": "39.5936",
         "longitude": "-121.46225"
+      }
+    ],
+    "regionName": "Oroville"
+  },
+  {
+    "outageNumber": "1060435",
+    "outageStartTime": "1599539460",
+    "crewCurrentStatus": "PG&E is unable to access the affected equipment.",
+    "cause": "PG&E is investigating the cause of your outage.",
+    "estCustAffected": "36",
+    "lastUpdateTime": "1601928181",
+    "hazardFlag": "0",
+    "latitude": "39.57654",
+    "longitude": "-121.30188",
+    "outageDevices": [
+      {
+        "latitude": "39.57294",
+        "longitude": "-121.26054"
+      },
+      {
+        "latitude": "39.57376",
+        "longitude": "-121.2509"
+      },
+      {
+        "latitude": "39.59365",
+        "longitude": "-121.25026"
+      },
+      {
+        "latitude": "39.59369",
+        "longitude": "-121.26626"
+      },
+      {
+        "latitude": "39.59254",
+        "longitude": "-121.27595"
+      },
+      {
+        "latitude": "39.58852",
+        "longitude": "-121.2859"
+      },
+      {
+        "latitude": "39.58013",
+        "longitude": "-121.29553"
       }
     ],
     "regionName": "Oroville"
@@ -1801,7 +1865,7 @@
     "currentEtor": "1602086400",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1602077570",
+    "lastUpdateTime": "1602081563",
     "hazardFlag": "1",
     "latitude": "37.48219",
     "longitude": "-122.19389",
@@ -1852,6 +1916,20 @@
     "latitude": "37.93861",
     "longitude": "-122.36088",
     "regionName": "Richmond"
+  },
+  {
+    "outageNumber": "1112516",
+    "outageStartTime": "1602081290",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
+    "autoEtor": "1602090900",
+    "currentEtor": "1602090900",
+    "cause": "PG&E is investigating the cause of your outage.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1602081402",
+    "hazardFlag": "0",
+    "latitude": "38.8216",
+    "longitude": "-121.26523",
+    "regionName": "Rocklin"
   },
   {
     "outageNumber": "1110755",
@@ -2677,7 +2755,7 @@
   {
     "outageNumber": "1112509",
     "outageStartTime": "1602080634",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1602086400",
     "currentEtor": "1602086400",
     "cause": "Unknown - PG&E will be assessing the cause.",
@@ -3568,10 +3646,49 @@
     "currentEtor": "1602113400",
     "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "3",
-    "lastUpdateTime": "1602079142",
+    "lastUpdateTime": "1602081187",
     "hazardFlag": "0",
     "latitude": "37.70991",
     "longitude": "-121.4528",
     "regionName": "Tracy"
+  },
+  {
+    "outageNumber": "1112515",
+    "outageStartTime": "1602081240",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1602111600",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
+    "estCustAffected": "26",
+    "lastUpdateTime": "1602081448",
+    "hazardFlag": "0",
+    "latitude": "37.19897",
+    "longitude": "-119.76952",
+    "outageDevices": [
+      {
+        "latitude": "37.19624",
+        "longitude": "-119.76814"
+      },
+      {
+        "latitude": "37.19639",
+        "longitude": "-119.76762"
+      },
+      {
+        "latitude": "37.19908",
+        "longitude": "-119.76421"
+      },
+      {
+        "latitude": "37.19973",
+        "longitude": "-119.7671"
+      },
+      {
+        "latitude": "37.19945",
+        "longitude": "-119.76814"
+      },
+      {
+        "latitude": "37.19919",
+        "longitude": "-119.76873"
+      }
+    ],
+    "regionName": "Yosemite Lakes"
   }
 ]
