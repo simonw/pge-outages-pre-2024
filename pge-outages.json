@@ -69,19 +69,6 @@
     "regionName": "Anderson"
   },
   {
-    "outageNumber": "1305658",
-    "outageStartTime": "1617379440",
-    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
-    "currentEtor": "1617404400",
-    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617379777",
-    "hazardFlag": "0",
-    "latitude": "38.03863",
-    "longitude": "-120.50501",
-    "regionName": "Angels Camp"
-  },
-  {
     "outageNumber": "1305731",
     "outageStartTime": "1617382679",
     "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
@@ -97,7 +84,7 @@
   {
     "outageNumber": "1305866",
     "outageStartTime": "1617393164",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1617404400",
     "currentEtor": "1617404400",
     "cause": "Unknown - PG&E will be assessing the cause.",
@@ -111,12 +98,12 @@
   {
     "outageNumber": "1305870",
     "outageStartTime": "1617393632",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1617408000",
+    "crewEta": "1617404400",
+    "crewCurrentStatus": "PG&E repair crew is en route to the outage location.",
     "currentEtor": "1617408000",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617396765",
+    "lastUpdateTime": "1617398410",
     "hazardFlag": "1",
     "latitude": "35.09289",
     "longitude": "-118.86822",
@@ -179,21 +166,6 @@
     "regionName": "Bakersfield"
   },
   {
-    "outageNumber": "1305804",
-    "outageStartTime": "1617388380",
-    "crewEta": "1617398820",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1617405300",
-    "currentEtor": "1617405300",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617398156",
-    "hazardFlag": "1",
-    "latitude": "37.07624",
-    "longitude": "-122.09174",
-    "regionName": "Ben Lomond"
-  },
-  {
     "outageNumber": "1305599",
     "outageStartTime": "1617375960",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -233,20 +205,6 @@
     "regionName": "Boyes Hot Springs"
   },
   {
-    "outageNumber": "1305823",
-    "outageStartTime": "1617390184",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1617399900",
-    "currentEtor": "1617399900",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617397840",
-    "hazardFlag": "0",
-    "latitude": "37.68946",
-    "longitude": "-122.4189",
-    "regionName": "Brisbane"
-  },
-  {
     "outageNumber": "1305903",
     "outageStartTime": "1617395955",
     "crewEta": "1617400020",
@@ -262,30 +220,58 @@
     "regionName": "Brooks"
   },
   {
-    "outageNumber": "1305887",
-    "outageStartTime": "1617395055",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
-    "autoEtor": "1617412500",
-    "currentEtor": "1617412500",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617395386",
-    "hazardFlag": "0",
-    "latitude": "37.59022",
-    "longitude": "-122.38508",
-    "regionName": "Burlingame"
-  },
-  {
     "outageNumber": "1305607",
     "outageStartTime": "1617377340",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
     "currentEtor": "1617404400",
     "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "0",
-    "lastUpdateTime": "1617377858",
+    "estCustAffected": "46",
+    "lastUpdateTime": "1617398577",
     "hazardFlag": "0",
     "latitude": "38.64351",
     "longitude": "-122.59213",
+    "outageDevices": [
+      {
+        "latitude": "38.64488",
+        "longitude": "-122.59468"
+      },
+      {
+        "latitude": "38.64602",
+        "longitude": "-122.5916"
+      },
+      {
+        "latitude": "38.66899",
+        "longitude": "-122.57324"
+      },
+      {
+        "latitude": "38.67281",
+        "longitude": "-122.57073"
+      },
+      {
+        "latitude": "38.67399",
+        "longitude": "-122.57237"
+      },
+      {
+        "latitude": "38.67534",
+        "longitude": "-122.57733"
+      },
+      {
+        "latitude": "38.6751",
+        "longitude": "-122.58035"
+      },
+      {
+        "latitude": "38.66921",
+        "longitude": "-122.63281"
+      },
+      {
+        "latitude": "38.65595",
+        "longitude": "-122.61614"
+      },
+      {
+        "latitude": "38.64507",
+        "longitude": "-122.5957"
+      }
+    ],
     "regionName": "Calistoga"
   },
   {
@@ -402,41 +388,6 @@
     "regionName": "Chico"
   },
   {
-    "outageNumber": "1305688",
-    "outageStartTime": "1617379500",
-    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
-    "currentEtor": "1617404400",
-    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "7",
-    "lastUpdateTime": "1617396647",
-    "hazardFlag": "0",
-    "latitude": "38.80101",
-    "longitude": "-123.05891",
-    "outageDevices": [
-      {
-        "latitude": "38.80133",
-        "longitude": "-123.0603"
-      },
-      {
-        "latitude": "38.81674",
-        "longitude": "-123.08513"
-      },
-      {
-        "latitude": "38.81689",
-        "longitude": "-123.08737"
-      },
-      {
-        "latitude": "38.80591",
-        "longitude": "-123.07847"
-      },
-      {
-        "latitude": "38.80164",
-        "longitude": "-123.07"
-      }
-    ],
-    "regionName": "Cloverdale"
-  },
-  {
     "outageNumber": "1305883",
     "outageStartTime": "1617394676",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -449,6 +400,19 @@
     "latitude": "36.84392",
     "longitude": "-119.73431",
     "regionName": "Clovis"
+  },
+  {
+    "outageNumber": "1305926",
+    "outageStartTime": "1617398147",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "currentEtor": "1617408000",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1617398539",
+    "hazardFlag": "0",
+    "latitude": "37.28692",
+    "longitude": "-119.66899",
+    "regionName": "Coarsegold"
   },
   {
     "outageNumber": "1305618",
@@ -491,18 +455,60 @@
     "regionName": "Cool"
   },
   {
-    "outageNumber": "1305905",
-    "outageStartTime": "1617396120",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
-    "autoEtor": "1617407100",
-    "currentEtor": "1617407100",
+    "outageNumber": "1305930",
+    "outageStartTime": "1617398771",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1617411600",
+    "currentEtor": "1617411600",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617396324",
+    "lastUpdateTime": "1617398960",
     "hazardFlag": "0",
-    "latitude": "37.32636",
-    "longitude": "-122.01824",
-    "regionName": "Cupertino"
+    "latitude": "40.35059",
+    "longitude": "-122.30911",
+    "regionName": "Cottonwood"
+  },
+  {
+    "outageNumber": "1305925",
+    "outageStartTime": "1617398530",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "autoEtor": "1617411600",
+    "currentEtor": "1617411600",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1617398685",
+    "hazardFlag": "0",
+    "latitude": "40.35079",
+    "longitude": "-122.30961",
+    "regionName": "Cottonwood"
+  },
+  {
+    "outageNumber": "1305923",
+    "outageStartTime": "1617398329",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1617411600",
+    "currentEtor": "1617411600",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1617398664",
+    "hazardFlag": "0",
+    "latitude": "40.28456",
+    "longitude": "-122.42109",
+    "regionName": "Cottonwood"
+  },
+  {
+    "outageNumber": "1305929",
+    "outageStartTime": "1617398743",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1617410700",
+    "currentEtor": "1617410700",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1617398921",
+    "hazardFlag": "1",
+    "latitude": "38.55116",
+    "longitude": "-121.73781",
+    "regionName": "Davis"
   },
   {
     "outageNumber": "1305902",
@@ -569,7 +575,7 @@
     "currentEtor": "1617402600",
     "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617378215",
+    "lastUpdateTime": "1617398605",
     "hazardFlag": "0",
     "latitude": "36.86912",
     "longitude": "-120.65415",
@@ -590,17 +596,17 @@
     "regionName": "Fremont"
   },
   {
-    "outageNumber": "1305881",
-    "outageStartTime": "1617394548",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1617405300",
-    "currentEtor": "1617405300",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "outageNumber": "1305931",
+    "outageStartTime": "1617398975",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1617408900",
+    "currentEtor": "1617408900",
+    "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617397621",
-    "hazardFlag": "1",
-    "latitude": "36.79855",
-    "longitude": "-119.76591",
+    "lastUpdateTime": "1617398977",
+    "hazardFlag": "0",
+    "latitude": "36.78262",
+    "longitude": "-119.81091",
     "regionName": "Fresno"
   },
   {
@@ -619,30 +625,17 @@
     "regionName": "Fresno"
   },
   {
-    "outageNumber": "1305729",
-    "outageStartTime": "1617382610",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "currentEtor": "1617400800",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "12",
-    "lastUpdateTime": "1617395872",
-    "hazardFlag": "0",
-    "latitude": "36.71409",
-    "longitude": "-119.80546",
-    "regionName": "Fresno"
-  },
-  {
     "outageNumber": "1305865",
     "outageStartTime": "1617393082",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
+    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
     "autoEtor": "1617405300",
     "currentEtor": "1617405300",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by an emergency issue.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617393236",
+    "lastUpdateTime": "1617399058",
     "hazardFlag": "0",
-    "latitude": "36.61589",
-    "longitude": "-119.85822",
+    "latitude": "36.61952",
+    "longitude": "-119.85622",
     "regionName": "Fresno"
   },
   {
@@ -877,12 +870,12 @@
   {
     "outageNumber": "1305915",
     "outageStartTime": "1617397003",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1617408000",
     "currentEtor": "1617408000",
     "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "67",
-    "lastUpdateTime": "1617397804",
+    "lastUpdateTime": "1617398805",
     "hazardFlag": "1",
     "latitude": "36.34266",
     "longitude": "-119.81612",
@@ -964,21 +957,6 @@
     "regionName": "Linda"
   },
   {
-    "outageNumber": "1305882",
-    "outageStartTime": "1617394604",
-    "crewEta": "1617397560",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
-    "autoEtor": "1617408900",
-    "currentEtor": "1617408900",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617395308",
-    "hazardFlag": "0",
-    "latitude": "39.25384",
-    "longitude": "-123.78372",
-    "regionName": "Little River"
-  },
-  {
     "outageNumber": "1305752",
     "outageStartTime": "1617384124",
     "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
@@ -1051,34 +1029,6 @@
     "latitude": "37.82531",
     "longitude": "-121.23595",
     "regionName": "Manteca"
-  },
-  {
-    "outageNumber": "1305901",
-    "outageStartTime": "1617395945",
-    "crewEta": "1617399540",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1617408000",
-    "currentEtor": "1617408000",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617398135",
-    "hazardFlag": "1",
-    "latitude": "37.79951",
-    "longitude": "-121.17831",
-    "regionName": "Manteca"
-  },
-  {
-    "outageNumber": "1305803",
-    "outageStartTime": "1617388379",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "currentEtor": "1617404400",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617395892",
-    "hazardFlag": "0",
-    "latitude": "39.19396",
-    "longitude": "-121.61177",
-    "regionName": "Marysville"
   },
   {
     "outageNumber": "1305705",
@@ -1162,6 +1112,20 @@
     "regionName": "Napa"
   },
   {
+    "outageNumber": "1305922",
+    "outageStartTime": "1617398322",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "autoEtor": "1617408000",
+    "currentEtor": "1617408000",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1617398628",
+    "hazardFlag": "1",
+    "latitude": "38.28373",
+    "longitude": "-122.29119",
+    "regionName": "Napa"
+  },
+  {
     "outageNumber": "1305637",
     "outageStartTime": "1617377040",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -1212,27 +1176,14 @@
     "outageNumber": "1305704",
     "outageStartTime": "1617380796",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "currentEtor": "1617399000",
+    "currentEtor": "1617420600",
     "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617391273",
+    "lastUpdateTime": "1617398587",
     "hazardFlag": "0",
     "latitude": "38.79339",
     "longitude": "-121.60707",
     "regionName": "Nicolaus"
-  },
-  {
-    "outageNumber": "1305920",
-    "outageStartTime": "1617397367",
-    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
-    "currentEtor": "1617402600",
-    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617397676",
-    "hazardFlag": "0",
-    "latitude": "37.1542",
-    "longitude": "-119.66014",
-    "regionName": "O Neals"
   },
   {
     "outageNumber": "1305889",
@@ -1312,27 +1263,13 @@
     "regionName": "Oakland"
   },
   {
-    "outageNumber": "1305871",
-    "outageStartTime": "1617393751",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1617403500",
-    "currentEtor": "1617403500",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617397555",
-    "hazardFlag": "1",
-    "latitude": "37.80429",
-    "longitude": "-122.24655",
-    "regionName": "Oakland"
-  },
-  {
     "outageNumber": "1305726",
     "outageStartTime": "1617382102",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
     "currentEtor": "1617411600",
-    "cause": "PG&E is investigating the cause of your outage.",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617398092",
+    "lastUpdateTime": "1617398740",
     "hazardFlag": "0",
     "latitude": "37.80049",
     "longitude": "-122.24333",
@@ -1346,7 +1283,7 @@
     "currentEtor": "1617402600",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617394275",
+    "lastUpdateTime": "1617398965",
     "hazardFlag": "1",
     "latitude": "37.78871",
     "longitude": "-122.19192",
@@ -1506,43 +1443,15 @@
   {
     "outageNumber": "1305612",
     "outageStartTime": "1617377580",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1617393600",
-    "currentEtor": "1617393600",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
+    "currentEtor": "1617408000",
+    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "2",
-    "lastUpdateTime": "1617378014",
+    "lastUpdateTime": "1617398431",
     "hazardFlag": "0",
     "latitude": "40.40032",
     "longitude": "-121.83519",
     "regionName": "Paynes Creek"
-  },
-  {
-    "outageNumber": "1305586",
-    "outageStartTime": "1617377400",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "currentEtor": "1617399000",
-    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "27",
-    "lastUpdateTime": "1617398118",
-    "hazardFlag": "0",
-    "latitude": "38.33599",
-    "longitude": "-122.67262",
-    "outageDevices": [
-      {
-        "latitude": "38.33424",
-        "longitude": "-122.67517"
-      },
-      {
-        "latitude": "38.33426",
-        "longitude": "-122.67066"
-      },
-      {
-        "latitude": "38.33511",
-        "longitude": "-122.67303"
-      }
-    ],
-    "regionName": "Penngrove"
   },
   {
     "outageNumber": "1305913",
@@ -1602,47 +1511,16 @@
   {
     "outageNumber": "1305897",
     "outageStartTime": "1617395755",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1617409800",
     "currentEtor": "1617409800",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617395978",
+    "lastUpdateTime": "1617398817",
     "hazardFlag": "1",
     "latitude": "38.10485",
     "longitude": "-120.87979",
     "regionName": "Rancho Calaveras"
-  },
-  {
-    "outageNumber": "1305830",
-    "outageStartTime": "1617390894",
-    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
-    "currentEtor": "1617404400",
-    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
-    "estCustAffected": "28",
-    "lastUpdateTime": "1617397962",
-    "hazardFlag": "0",
-    "latitude": "40.74332",
-    "longitude": "-122.31997",
-    "outageDevices": [
-      {
-        "latitude": "40.74944",
-        "longitude": "-122.31882"
-      },
-      {
-        "latitude": "40.75821",
-        "longitude": "-122.31948"
-      },
-      {
-        "latitude": "40.75671",
-        "longitude": "-122.32433"
-      },
-      {
-        "latitude": "40.74966",
-        "longitude": "-122.32396"
-      }
-    ],
-    "regionName": "Redding"
   },
   {
     "outageNumber": "1305797",
@@ -1656,19 +1534,6 @@
     "latitude": "37.63729",
     "longitude": "-122.4577",
     "regionName": "San Bruno"
-  },
-  {
-    "outageNumber": "1305710",
-    "outageStartTime": "1617381098",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "currentEtor": "1617411600",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1617395982",
-    "hazardFlag": "0",
-    "latitude": "37.34655",
-    "longitude": "-121.80201",
-    "regionName": "San Jose"
   },
   {
     "outageNumber": "1305484",
@@ -1846,14 +1711,29 @@
     "regionName": "San Mateo"
   },
   {
+    "outageNumber": "1305924",
+    "outageStartTime": "1617398375",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "autoEtor": "1617409800",
+    "currentEtor": "1617409800",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1617398588",
+    "hazardFlag": "1",
+    "latitude": "37.98445",
+    "longitude": "-122.47854",
+    "regionName": "San Rafael"
+  },
+  {
     "outageNumber": "1305884",
     "outageStartTime": "1617394724",
-    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
+    "crewEta": "1617398760",
+    "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
     "autoEtor": "1617408900",
     "currentEtor": "1617408900",
     "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
     "estCustAffected": "4",
-    "lastUpdateTime": "1617397914",
+    "lastUpdateTime": "1617398780",
     "hazardFlag": "0",
     "latitude": "34.93616",
     "longitude": "-120.48984",
@@ -2036,7 +1916,7 @@
     "currentEtor": "1617410700",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617397917",
+    "lastUpdateTime": "1617398285",
     "hazardFlag": "0",
     "latitude": "37.81845",
     "longitude": "-121.41396",
@@ -2147,12 +2027,12 @@
   {
     "outageNumber": "1305896",
     "outageStartTime": "1617395746",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1617407100",
     "currentEtor": "1617407100",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617395895",
+    "lastUpdateTime": "1617398538",
     "hazardFlag": "0",
     "latitude": "38.58336",
     "longitude": "-121.52336",
@@ -2196,12 +2076,12 @@
   {
     "outageNumber": "1305919",
     "outageStartTime": "1617397564",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1617408900",
     "currentEtor": "1617408900",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1617397759",
+    "lastUpdateTime": "1617398653",
     "hazardFlag": "1",
     "latitude": "38.68658",
     "longitude": "-121.78384",
