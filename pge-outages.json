@@ -51,6 +51,20 @@
     "regionName": "Bakersfield"
   },
   {
+    "outageNumber": "1552189",
+    "outageStartTime": "1637463780",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1637475300",
+    "currentEtor": "1637475300",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1637463973",
+    "hazardFlag": "0",
+    "latitude": "35.36669",
+    "longitude": "-118.98204",
+    "regionName": "Bakersfield"
+  },
+  {
     "outageNumber": "1551933",
     "outageStartTime": "1637450547",
     "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
@@ -72,8 +86,8 @@
     "currentEtor": "1637467200",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1637457801",
-    "hazardFlag": "1",
+    "lastUpdateTime": "1637464095",
+    "hazardFlag": "2",
     "latitude": "37.97154",
     "longitude": "-121.32797",
     "regionName": "Country Club"
@@ -208,12 +222,13 @@
   {
     "outageNumber": "1552161",
     "outageStartTime": "1637456820",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewEta": "1637464080",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1637469000",
     "currentEtor": "1637469000",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1637456961",
+    "lastUpdateTime": "1637464120",
     "hazardFlag": "0",
     "latitude": "39.19683",
     "longitude": "-120.99529",
@@ -296,7 +311,7 @@
     "currentEtor": "1637465400",
     "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1637461897",
+    "lastUpdateTime": "1637463847",
     "hazardFlag": "0",
     "latitude": "37.68751",
     "longitude": "-121.77163",
@@ -363,20 +378,6 @@
     "latitude": "36.98038",
     "longitude": "-120.08964",
     "regionName": "Madera"
-  },
-  {
-    "outageNumber": "1552140",
-    "outageStartTime": "1637456570",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1637469900",
-    "currentEtor": "1637469900",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1637459706",
-    "hazardFlag": "0",
-    "latitude": "37.13541",
-    "longitude": "-121.64782",
-    "regionName": "Morgan Hill"
   },
   {
     "outageNumber": "1552163",
@@ -454,7 +455,7 @@
     "currentEtor": "1637466300",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "20",
-    "lastUpdateTime": "1637460953",
+    "lastUpdateTime": "1637463524",
     "hazardFlag": "0",
     "latitude": "37.90946",
     "longitude": "-122.31465",
@@ -503,31 +504,39 @@
     "regionName": "San Mateo"
   },
   {
-    "outageNumber": "1552179",
-    "outageStartTime": "1637459601",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1637487900",
-    "currentEtor": "1637487900",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1637460579",
-    "hazardFlag": "0",
-    "latitude": "34.87303",
-    "longitude": "-120.37213",
-    "regionName": "Santa Maria"
-  },
-  {
-    "outageNumber": "1552180",
+    "outageNumber": "1552187",
     "outageStartTime": "1637459600",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1637487900",
-    "currentEtor": "1637487900",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1637460350",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
+    "autoEtor": "1637491500",
+    "currentEtor": "1637491500",
+    "cause": "PG&E is investigating the cause of your outage.",
+    "estCustAffected": "11",
+    "lastUpdateTime": "1637463585",
     "hazardFlag": "0",
-    "latitude": "34.87715",
-    "longitude": "-120.37424",
+    "latitude": "34.87871",
+    "longitude": "-120.3689",
+    "outageDevices": [
+      {
+        "latitude": "34.87128",
+        "longitude": "-120.37273"
+      },
+      {
+        "latitude": "34.87168",
+        "longitude": "-120.36899"
+      },
+      {
+        "latitude": "34.87384",
+        "longitude": "-120.36558"
+      },
+      {
+        "latitude": "34.8761",
+        "longitude": "-120.37123"
+      },
+      {
+        "latitude": "34.87715",
+        "longitude": "-120.37424"
+      }
+    ],
     "regionName": "Santa Maria"
   },
   {
@@ -581,47 +590,6 @@
     "latitude": "37.64252",
     "longitude": "-122.44707",
     "regionName": "South San Francisco"
-  },
-  {
-    "outageNumber": "1551704",
-    "outageStartTime": "1637442480",
-    "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
-    "currentEtor": "1637481300",
-    "cause": "Our preliminary determination is that your outage was caused by an equipment issue.",
-    "estCustAffected": "24",
-    "lastUpdateTime": "1637462430",
-    "hazardFlag": "0",
-    "latitude": "38.04153",
-    "longitude": "-121.34657",
-    "regionName": "Stockton"
-  },
-  {
-    "outageNumber": "1552168",
-    "outageStartTime": "1637457800",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1637467200",
-    "currentEtor": "1637467200",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1637462946",
-    "hazardFlag": "0",
-    "latitude": "38.25156",
-    "longitude": "-122.01746",
-    "regionName": "Suisun City"
-  },
-  {
-    "outageNumber": "1552175",
-    "outageStartTime": "1637458656",
-    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
-    "autoEtor": "1637464500",
-    "currentEtor": "1637464500",
-    "cause": "PG&E is investigating the cause of your outage.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1637462684",
-    "hazardFlag": "1",
-    "latitude": "38.10408",
-    "longitude": "-122.22242",
-    "regionName": "Vallejo"
   },
   {
     "outageNumber": "1552186",
