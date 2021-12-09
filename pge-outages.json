@@ -122,7 +122,7 @@
     "currentEtor": "1639071000",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1639058051",
+    "lastUpdateTime": "1639059193",
     "hazardFlag": "0",
     "latitude": "37.82761",
     "longitude": "-121.07328",
@@ -131,12 +131,13 @@
   {
     "outageNumber": "1562591",
     "outageStartTime": "1639057637",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewEta": "1639062240",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1639071000",
     "currentEtor": "1639071000",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1639058031",
+    "lastUpdateTime": "1639059551",
     "hazardFlag": "1",
     "latitude": "37.82725",
     "longitude": "-121.07517",
@@ -173,16 +174,30 @@
   {
     "outageNumber": "1562590",
     "outageStartTime": "1639057129",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
     "autoEtor": "1639072800",
     "currentEtor": "1639072800",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1639058203",
+    "lastUpdateTime": "1639059790",
     "hazardFlag": "1",
     "latitude": "36.14432",
     "longitude": "-121.0467",
     "regionName": "King City"
+  },
+  {
+    "outageNumber": "1562595",
+    "outageStartTime": "1639059108",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1639070100",
+    "currentEtor": "1639070100",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1639059112",
+    "hazardFlag": "1",
+    "latitude": "38.95228",
+    "longitude": "-121.25232",
+    "regionName": "Lincoln"
   },
   {
     "outageNumber": "1562186",
@@ -344,10 +359,10 @@
     "outageNumber": "1562537",
     "outageStartTime": "1639023840",
     "crewCurrentStatus": "PG&E repair crew is on-site working to restore power.",
-    "currentEtor": "1639062000",
+    "currentEtor": "1639069200",
     "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1639058230",
+    "lastUpdateTime": "1639059674",
     "hazardFlag": "0",
     "latitude": "36.66268",
     "longitude": "-121.64097",
@@ -413,28 +428,14 @@
     "regionName": "San Francisco"
   },
   {
-    "outageNumber": "1561826",
-    "outageStartTime": "1638984715",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1638999000",
-    "currentEtor": "1638999000",
-    "cause": "Our preliminary determination is that your outage was caused by scheduled maintenance work.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1639006427",
-    "hazardFlag": "0",
-    "latitude": "37.73995",
-    "longitude": "-122.48397",
-    "regionName": "San Francisco"
-  },
-  {
     "outageNumber": "1562589",
     "outageStartTime": "1639056622",
-    "crewCurrentStatus": "PG&E assessment crew is en route to the outage.",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "autoEtor": "1639071000",
     "currentEtor": "1639071000",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "1",
-    "lastUpdateTime": "1639056897",
+    "lastUpdateTime": "1639059070",
     "hazardFlag": "1",
     "latitude": "36.97244",
     "longitude": "-122.02",
@@ -555,5 +556,61 @@
       }
     ],
     "regionName": "Tomales"
+  },
+  {
+    "outageNumber": "1562596",
+    "outageStartTime": "1639059445",
+    "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
+    "autoEtor": "1639069200",
+    "currentEtor": "1639069200",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "211",
+    "lastUpdateTime": "1639059965",
+    "hazardFlag": "1",
+    "latitude": "36.68471",
+    "longitude": "-119.85284",
+    "outageDevices": [
+      {
+        "latitude": "36.62857",
+        "longitude": "-119.85377"
+      },
+      {
+        "latitude": "36.62894",
+        "longitude": "-119.8513"
+      },
+      {
+        "latitude": "36.64133",
+        "longitude": "-119.84701"
+      },
+      {
+        "latitude": "36.64865",
+        "longitude": "-119.84498"
+      },
+      {
+        "latitude": "36.68357",
+        "longitude": "-119.84944"
+      },
+      {
+        "latitude": "36.68464",
+        "longitude": "-119.85284"
+      },
+      {
+        "latitude": "36.68264",
+        "longitude": "-119.8625"
+      },
+      {
+        "latitude": "36.67762",
+        "longitude": "-119.86614"
+      },
+      {
+        "latitude": "36.66282",
+        "longitude": "-119.87657"
+      },
+      {
+        "latitude": "36.64103",
+        "longitude": "-119.87273"
+      }
+    ],
+    "regionName": "West Park"
   }
 ]
