@@ -143,20 +143,6 @@
     "regionName": "Bradley"
   },
   {
-    "outageNumber": "1656585",
-    "outageStartTime": "1648389300",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "autoEtor": "1648413000",
-    "currentEtor": "1648413000",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "2",
-    "lastUpdateTime": "1648389970",
-    "hazardFlag": "0",
-    "latitude": "35.56169",
-    "longitude": "-120.909",
-    "regionName": "Cambria"
-  },
-  {
     "outageNumber": "1656559",
     "outageStartTime": "1648362180",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
@@ -196,9 +182,9 @@
     "outageStartTime": "1648359555",
     "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
     "currentEtor": "1648397700",
-    "cause": "Unknown - PG&E will be assessing the cause.",
+    "cause": "PG&E is investigating the cause of your outage.",
     "estCustAffected": "15",
-    "lastUpdateTime": "1648391413",
+    "lastUpdateTime": "1648391674",
     "hazardFlag": "0",
     "latitude": "37.8975",
     "longitude": "-121.86024",
@@ -255,8 +241,8 @@
     "currentEtor": "1648403100",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "586",
-    "lastUpdateTime": "1648391393",
-    "hazardFlag": "3",
+    "lastUpdateTime": "1648391966",
+    "hazardFlag": "4",
     "latitude": "37.69887",
     "longitude": "-122.48008",
     "outageDevices": [
@@ -394,6 +380,20 @@
     "regionName": "Guerneville"
   },
   {
+    "outageNumber": "1656621",
+    "outageStartTime": "1648391898",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1648405800",
+    "currentEtor": "1648405800",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "1",
+    "lastUpdateTime": "1648391901",
+    "hazardFlag": "0",
+    "latitude": "38.59664",
+    "longitude": "-122.91812",
+    "regionName": "Healdsburg"
+  },
+  {
     "outageNumber": "1656578",
     "outageStartTime": "1648386300",
     "crewCurrentStatus": "PG&E is sending a repair crew to the outage location.",
@@ -507,7 +507,7 @@
     "currentEtor": "1648403100",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "64",
-    "lastUpdateTime": "1648391175",
+    "lastUpdateTime": "1648391864",
     "hazardFlag": "0",
     "latitude": "38.86419",
     "longitude": "-121.54028",
@@ -573,7 +573,7 @@
     "currentEtor": "1648409400",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "8",
-    "lastUpdateTime": "1648389762",
+    "lastUpdateTime": "1648391784",
     "hazardFlag": "0",
     "latitude": "37.7598",
     "longitude": "-122.13277",
@@ -615,7 +615,7 @@
     "currentEtor": "1648409400",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "21",
-    "lastUpdateTime": "1648390809",
+    "lastUpdateTime": "1648391897",
     "hazardFlag": "0",
     "latitude": "37.75957",
     "longitude": "-122.13337",
@@ -629,7 +629,7 @@
     "currentEtor": "1648409400",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "37",
-    "lastUpdateTime": "1648390809",
+    "lastUpdateTime": "1648391897",
     "hazardFlag": "0",
     "latitude": "37.76053",
     "longitude": "-122.13404",
@@ -685,7 +685,7 @@
     "currentEtor": "1648401300",
     "cause": "Unknown - PG&E will be assessing the cause.",
     "estCustAffected": "97",
-    "lastUpdateTime": "1648391185",
+    "lastUpdateTime": "1648391800",
     "hazardFlag": "1",
     "latitude": "38.25618",
     "longitude": "-122.67571",
@@ -822,19 +822,6 @@
     "regionName": "Redwood Valley"
   },
   {
-    "outageNumber": "1656528",
-    "outageStartTime": "1648357188",
-    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
-    "currentEtor": "1648393200",
-    "cause": "Unknown - PG&E will be assessing the cause.",
-    "estCustAffected": "1",
-    "lastUpdateTime": "1648378793",
-    "hazardFlag": "0",
-    "latitude": "37.40736",
-    "longitude": "-121.87014",
-    "regionName": "San Jose"
-  },
-  {
     "outageNumber": "1656577",
     "outageStartTime": "1648385835",
     "crewCurrentStatus": "PG&E is assessing the cause at the outage location.",
@@ -928,6 +915,38 @@
       }
     ],
     "regionName": "Sunnyvale"
+  },
+  {
+    "outageNumber": "1656585",
+    "outageStartTime": "1648389300",
+    "crewCurrentStatus": "PG&E has assigned a crew to assess the outage.",
+    "autoEtor": "1648413000",
+    "currentEtor": "1648413000",
+    "cause": "Unknown - PG&E will be assessing the cause.",
+    "estCustAffected": "5",
+    "lastUpdateTime": "1648391686",
+    "hazardFlag": "0",
+    "latitude": "35.56425",
+    "longitude": "-120.90692",
+    "outageDevices": [
+      {
+        "latitude": "35.55845",
+        "longitude": "-120.91067"
+      },
+      {
+        "latitude": "35.56423",
+        "longitude": "-120.90694"
+      },
+      {
+        "latitude": "35.56364",
+        "longitude": "-120.90782"
+      },
+      {
+        "latitude": "35.56169",
+        "longitude": "-120.909"
+      }
+    ],
+    "regionName": "Templeton"
   },
   {
     "outageNumber": "1656563",
